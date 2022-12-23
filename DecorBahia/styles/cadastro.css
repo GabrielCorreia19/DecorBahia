@@ -1,0 +1,77 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+body {
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/695971/pexels-photo-695971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+div.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+h1 {
+    color: #1a1a1a;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    gap: 8px; 
+    width: 300px;
+    align-items: center;
+    }
+
+label {
+    display: flex;
+    flex-direction: column;  
+    gap: 8px;  
+    width: 100%;
+}
+
+span {
+    color: #1a1a1a;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #b00000;
+    }
+   
+button{
+    background-color: #b00000;
+    color: #FFFFFF;
+    width: 50%;
+    border-radius: 10px;
+    height: 200%;
+    margin-top: 5px;
+
+}

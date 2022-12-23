@@ -1,0 +1,76 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+body{
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    height: 100vh;
+    color: #1A1A1A;
+    background-image: url("https://images.pexels.com/photos/163444/sport-treadmill-tor-route-163444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b00000;
+    padding: 15px 0;    
+    color: #FFFFFF;
+}
+
+ul{
+    display: flex;
+    color: FFFFF;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin: 0 30px;
+    list-style: none;
+    font-size: 20px;
+
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+#nomePessoa{
+    margin: 0 25px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px;
+}
+p{
+    color: #1A1A1A;
+    font-size: 200%;
+    margin: 15px 20px;
+}
+.imagemBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+#imagem1{
+    display: flex;
+    border-radius: 5%;
+    width: 45%; 
+}
+
+#imagem2{
+    display: flex;
+    border-radius: 5%;
+    width: 50%; 
+    height: px;
+}
